@@ -108,7 +108,7 @@ public class CoffeeMachine {
                     System.out.println("I gave you " + money);
                     money = 0;
                     break;
-                    
+
                 case "remaining":
                     System.out.println("The coffee machine has:");
                     System.out.println(water + " of water");
