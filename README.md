@@ -15,3 +15,26 @@ Mixing boiled water with crushed coffee beans</br>
 Pouring coffee into the cup</br>
 Pouring some milk into the cup</br>
 Coffee is ready!</br>
+
+Stage 2/10: Machines have needs
+Description
+
+Now let's consider a case where you need a lot of coffee. Maybe, for example, you’re hosting a party with a lot of guests. The program should calculate how much water, coffee beans, and milk are necessary to make the specified amount of coffee. One cup of coffee made on this coffee machine contains 200 ml of water, 50 ml of milk, and 15 g of coffee beans.
+
+The user should input the amount of coffee he needs, in cups, for all the guests.
+
+Of course, all this coffee is not needed right now, so at this stage, the coffee machine doesn’t actually make any coffee.
+Output example
+
+The example below shows how your output might look.
+Write how many cups of coffee you will need: 25</br>
+For 25 cups of coffee you will need:</br>
+5000 ml of water</br>
+1250 ml of milk</br>
+375 g of coffee beans</br>
+
+Write how many cups of coffee you will need: 125</br>
+For 125 cups of coffee you will need:</br>
+25000 ml of water</br>
+6250 ml of milk</br>
+1875 g of coffee beans</br>
