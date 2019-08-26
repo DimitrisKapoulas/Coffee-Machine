@@ -1,5 +1,5 @@
 # Coffee-Machine
-Stage 1/6: Hello, coffee!
+Stage 1/5: Hello, coffee!
 Let's start with a program that makes you a coffee – virtual coffee, of course. But in this project, you will implement functionality that simulates a real coffee machine. It can run out of milk, it can run out of coffee beans, it can make different varieties of coffee, and it can take the money for making a coffee.
 
 The first version of the program just makes you a coffee. It prints to the standard output what it is doing as it makes a coffee.
@@ -16,7 +16,7 @@ Pouring coffee into the cup</br>
 Pouring some milk into the cup</br>
 Coffee is ready!</br>
 
-Stage 2/6: Machines have needs
+Stage 2/5: Machines have needs
 Description
 
 Now let's consider a case where you need a lot of coffee. Maybe, for example, you’re hosting a party with a lot of guests. The program should calculate how much water, coffee beans, and milk are necessary to make the specified amount of coffee. One cup of coffee made on this coffee machine contains 200 ml of water, 50 ml of milk, and 15 g of coffee beans.
@@ -39,7 +39,7 @@ For 125 cups of coffee you will need:</br>
 6250 ml of milk</br>
 1875 g of coffee beans</br>
 
-Stage 3/6: Enough coffee for everyone
+Stage 3/5: Enough coffee for everyone
 Description
 
 A real coffee machine never has an infinite supply of water, milk, or coffee beans. And if you input a really big number, it’s almost certain that a real coffee machine wouldn't have the supplies needed to make all that coffee.
@@ -88,7 +88,7 @@ Write how many grams of coffee beans the coffee machine has: 15</br>
 Write how many cups of coffee you will need: 0</br>
 Yes, I can make that amount of coffee (and even 1 more than that)</br>
 
-Stage 4/6: Action!
+Stage 4/5: Action!
 Description
 
 Let's simulate an actual coffee machine. It has a limited supply of water, milk, coffee beans, and disposable cups. Also, it counts how much money it gets for selling coffee. The coffee machine has several options: first, it needs to be able to sell coffee. It can make different varieties of coffee: espresso, latte, and cappuccino. Of course, each variety requires a different amount of supplies, except that all of them requires only one disposable cup. Second, the coffee machine should be able to get replenished by a special worker. Third, another special worker should be able to take money from the coffee machine.
@@ -169,7 +169,7 @@ The coffee machine has:</br>
 9 of disposable cups</br>
 0 of money</br>
 
-Stage 5/6: On a coffee loop
+Stage 5/5: On a coffee loop
 Description
 
 But just one action isn’t interesting. Let's improve the program so it can do multiple actions, one after another. The program should repeatedly ask what the user wants to do. If the user types "buy", "fill" or "take", then just do what the program did in the previous step. However, if the user wants to switch off the coffee machine, he should type "exit". Then the program should terminate. Also, when the user types "remaining", the program should output all the resources that the coffee machine has.
